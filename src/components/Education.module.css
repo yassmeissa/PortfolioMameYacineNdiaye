@@ -1,0 +1,224 @@
+.education {
+  padding: 5rem 2rem;
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, #0066ff 100%);
+  border-radius: 2px;
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--primary-color) 0%, var(--primary-color) 100%);
+  opacity: 0.2;
+}
+
+.timelineItem {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: var(--primary-color);
+  border: 4px solid var(--bg-primary);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  width: calc(50% - 1rem);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 102, 255, 0.1);
+  border-color: var(--primary-color);
+}
+
+.card.expanded {
+  background: var(--bg-primary);
+  border-color: var(--primary-color);
+}
+
+.left {
+  margin-right: auto;
+  margin-left: 0;
+  text-align: right;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+}
+
+.header {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headerContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metadata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.degree {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.school {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.period {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  display: block;
+  margin: 0;
+}
+
+.chevron {
+  color: var(--primary-color);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.highlights {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  animation: slideDown 0.3s ease;
+}
+
+.highlights li {
+  color: var(--text-secondary);
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.highlights li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .timeline::before {
+    left: 15px;
+  }
+
+  .marker {
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    border-width: 3px;
+  }
+
+  .card {
+    width: calc(100% - 3rem);
+    margin-left: 3rem !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .chevron {
+    margin-top: 0.5rem;
+  }
+}

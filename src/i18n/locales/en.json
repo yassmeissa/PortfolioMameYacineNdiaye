@@ -1,0 +1,476 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+  "title": "Hi, I'm Mame Yacine NDIAYE",
+  "subtitle": "Full-Stack Developer & AI Enthusiast",
+  "points": [
+    "Full-Stack Development: Building robust web and mobile applications.",
+    "Artificial Intelligence: Developing solutions based on Machine Learning and Computer Vision.",
+    "Architecture & Performance: Creating scalable, secure, and optimized applications."
+  ],
+  "cta": "View My Projects",
+  "hireMeBtn": "Contact Me"
+},
+  "about": {
+  "title": "About Me",
+"description": "Full-Stack Developer specializing in designing high-performance web and mobile applications, I combine technical expertise with strategic vision to create robust and scalable digital solutions. My academic background in **Master’s at Ynov Campus** allows me to deepen my skills in **Artificial Intelligence, Machine Learning, and Data Science**, with a focus on solving real-world problems.\n\nI am proficient in **JavaScript (React, Node.js, Express)**, secure backend architectures, as well as development in **Python, Java, and PHP**. I place particular emphasis on writing clean code, following best practices in software architecture, and optimizing performance.\n\nPassionate about innovation, I am especially interested in applications integrating **AI and computer vision**, aiming to build intelligent solutions with high added value. Rigorous, autonomous, and collaborative, I fully invest myself in projects to provide a sustainable and structured technical contribution.",    "stats": [
+    {
+      "number": "10+",
+      "label": "Projects"
+    },
+    {
+      "number": "3+",
+      "label": "Experience"
+    }
+  ]
+},
+  "experience": {
+    "title": "Experience",
+    "noExperience": "Add your experience here",
+    "items": [
+      {
+        "id": 1,
+        "company": "Ynov Campus, Lyon",
+        "position": "Data Scientist Intern - Web Scraping & CRM",
+        "period": "Jan 2026 - Jul 2026",
+         "description": "Developed automated web scraping scripts for marketing campaigns and built a CRM system to manage leads and communication workflows.",
+      "highlights": [
+        "Automated web scraping scripts to support marketing campaigns",
+        "Designed and implemented a CRM to manage leads and workflows",
+        "Built data pipelines for efficient processing and storage",
+        "Performed exploratory data analysis and data visualization"
+      ]
+    },
+      {
+        "id": 2,
+        "company": "Orange Sénégal",
+        "position": "Python Developer Intern",
+        "period": "Apr 2024 - Aug 2024",
+        "description": "Developed backend Python applications for internal tools and automation projects.",
+      "highlights": [
+        "Developed Python applications for internal tools and process automation",
+        "Designed and implemented REST APIs to integrate internal systems",
+        "Automated data collection, validation, and reporting tasks",
+        "Collaborated with senior developers following Agile methodologies"
+      ]
+    }
+    ]
+  },
+  
+"education": {
+  "title": "Education",
+  "items": [
+    {
+      "id": 1,
+      "degree": "Master in Artificial Intelligence",
+      "school": "Ynov Campus, Lyon",
+      "period": "Sep 2025 - Present",
+      "highlights": [
+        "Advanced Machine Learning and Deep Learning techniques",
+        "Algorithmic visualization and model interpretability",
+        "Computer Vision and Natural Language Processing",
+        "Deployment and optimization of AI models",
+        "Hands-on AI projects and practical applications"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Bachelor in Data & Application Design",
+      "school": "Estiam, Lyon",
+      "period": "Oct 2024 - Aug 2025",
+      "highlights": [
+        "Full-Stack application development with React, PHP Symfony, SQL/NoSQL",
+        "Built e-commerce platforms, chatbots, and dashboards",
+        "Developed games in Java and Python",
+        "REST API development, cloud deployment with Azure, Docker and AWS",
+        "Data visualization using Qlik Sense and Power BI",
+        "UX/UI design and responsive web design"
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "Bachelor in Computer Sciences - Core Curriculum",
+      "school": "ECE, Lyon",
+      "period": "Sep 2022 - Aug 2024",
+      "highlights": [
+        "Programming, software development, networking, and project management",
+        "Created websites, games, and RESTful APIs",
+        "Integrated front-end and back-end systems",
+        "Worked on Agile projects, debugging, testing, and documentation"
+      ]
+    },
+    {
+      "id": 4,
+      "degree": "Scientific Baccalaureate",
+      "school": "Mikado, Dakar, Senegal",
+      "period": "2020 - 2021",
+      "highlights": [
+        "Strong foundation in Mathematics, Physics, and Computer Science",
+        "High academic achievements"
+      ]
+    }
+  ]
+},
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "github": "GitHub",
+    "demo": "Live Demo",
+    "viewDetails": "View Details",
+    "viewAll": "View All Projects",
+    "backToProjects": "Back to Projects",
+    "overview": "Overview",
+    "keyFeatures": "Key Features",
+    "technologies": "Technologies",
+    "links": "Links",
+    "backToGallery": "Back to Gallery",
+    "notFound": "Project not found",
+    "viewMore": "View {{count}} more",
+    "viewLess": "View less",
+    "items": [
+      {
+        "id": 1,
+        "title": "AlgoTrade Lab – Trading Analysis and Simulation Platform",
+        "description": "Complete web application for simulating and analyzing trading strategies. The platform allows users to test algorithms on historical data, visualize performance in real-time and analyze financial indicators through dynamic charts.",
+        "technologies": ["Node.js", "Express.js", "MongoDB", "Angular", "TypeScript", "JWT", "Chart.js", "REST API", "Docker"],
+        "highlights": [
+          "Complete algorithmic trading simulation platform with user management",
+          "Modular backend architecture (controllers, services, routes, models) with Express.js",
+          "Secure authentication with JWT and user role management",
+          "Strategy backtesting: test algorithms on historical data with automatic performance calculation",
+          "Financial indicator calculation: RSI, Moving Averages (SMA/EMA), MACD",
+          "Advanced data visualization: interactive dynamic charts with Chart.js",
+          "Personalized user dashboard: performance tracking, statistics, simulation history",
+          "Virtual portfolio management: initial capital, profits/losses, drawdown, returns",
+          "Secure and documented REST API for Frontend/Backend communication",
+          "MongoDB database optimized for storing users, strategies, histories and results",
+          "Modern and responsive interface with Angular and TypeScript",
+          "Containerization with Docker for simplified deployment",
+          "Structured and scalable code, ready for evolution towards microservices or AI integration"
+        ],
+        "repository": "https://github.com/yassmeissa/AlgoTradeLab"
+      },
+      {
+        "id": 2,
+        "title": "Admins–Students Platform",
+        "description": "Modern multi-role web platform (Admin / Student) for complete educational management: courses, lessons, quizzes, discussion forum. Responsive interface with persistent dark/light theme, real-time search and automatic quiz correction with grading.",
+        "technologies": ["Symfony 7.0", "PHP 8.4", "Bootstrap 5.3", "MySQL", "Twig", "Font Awesome 6.4", "JavaScript", "REST API"],
+        "repository": "https://github.com/yassmeissa/project_admins_students",
+        "highlights": [
+          "Complete educational platform: course, lesson, quiz, and forum management",
+          "Advanced multi-role system: administration, user management and role-based access control (RBAC)",
+          "Robust MVC architecture with Symfony 7.0: relational database with 11 tables",
+          "Intelligent quizzes: multiple choice questions, automatic correction, real-time scoring, attempt history",
+          "Modern and responsive interface: Bootstrap 5.3.0, Font Awesome 6.4.0, mobile/desktop adapted design",
+          "Persistent theme dark/light: automatic management with cookies (1 year), visual consistency everywhere",
+          "Real-time search: dynamic filtering of courses, users, quizzes and lessons without page reload",
+          "Integrated forum: post creation, student exchange, conversation management",
+          "Student dashboard: personalized dashboard, course tracking, quiz results, learning statistics",
+          "Complete admin panel: full CRUD for all elements (courses, users, quizzes, questions)",
+          "Secure authentication: login/registration system, session management, data validation",
+          "Optimized UX: smooth transitions, animations, hover effects, confirmation messages, validations"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Intervention Management System",
+        "description": "Modern web system for complete technical intervention management with multi-role support (Admin / Dispatcher / Technician / Client). Professional responsive interface with secure authentication, personalized dashboards and complete CRUD for interventions and users.",
+        "technologies": ["PHP 8.4", "Custom MVC", "MySQL 9.6", "PDO", "HTML5", "CSS3", "JavaScript", "Bootstrap", "REST API"],
+        "repository": "https://github.com/yassmeissa/InterventionsManagement",
+        "highlights": [
+          "Advanced multi-role system: 4 distinct roles (Admin, Dispatcher, Technician, Client) with role-based access control (RBAC)",
+          "Custom MVC architecture: simple but robust router, clear separation of concerns",
+          "Relational database: 6 tables with complex relationships between User, Client, Technician, Dispatcher, Admin, Intervention",
+          "Personalized dashboards: each role has an adapted dashboard to their needs and permissions",
+          "Complete CRUD: full management of interventions and users with data validation",
+          "Modern and responsive interface: professional design with gradients, smooth animations, hover effects",
+          "Consistent theme: violet-blue gradients, color badges for statuses, styled tables",
+          "Secure authentication: login/registration system with PHP sessions, password hashing",
+          "Status management: interventions with statuses (Pending, In Progress, Completed) and urgency levels",
+          "Notification system: flash messages for actions (success, error)",
+          "Smart navigation: automatic redirection to appropriate dashboard based on role",
+          "Dynamic forms: intervention creation/modification with optional and required fields"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Africa Shop - African E-commerce Platform",
+        "description": "Modern and high-performance e-commerce platform dedicated to African products with complete admin system. Integrates React/Vite responsive frontend, Node.js/Express backend with JWT authentication, payment management (Stripe/PayPal), and advanced admin dashboard for product, order and category management.",
+        "technologies": ["React 19.2.0", "Vite 7.3.0", "Node.js", "Express.js", "MongoDB", "JWT", "Stripe API", "PayPal API", "Font Awesome 6.4", "CSS3", "JavaScript ES6+", "REST API"],
+        "repository": "https://github.com/yassmeissa/MonAfricaShop",
+        "highlights": [
+          "Complete e-commerce platform: catalog of 26 products, 6 categories, persistent cart and secure checkout",
+          "Multi-level authentication: JWT system for customers and administrators with distinct roles (admin/client)",
+          "Integrated payment management: Stripe and PayPal support with success/cancellation pages and confirmation",
+          "Advanced admin dashboard: complete CRUD management of products, orders, categories with interactive modals",
+          "Dynamic KPI system: 5 statistical cards (orders, revenue, pending, paid, products)",
+          "Smart filtering: sorting by status/date, products by categories from database",
+          "Image management: base64 encoding for upload/modification directly from forms",
+          "Responsive interface: adaptive grid, hero banner with gradient, consistent client/admin design",
+          "Dynamic footer: categories automatically fetched from database",
+          "Smart navigation: sticky navbar, cart link, admin link visible only for connected admins",
+          "Interactive modals: dialogs for product creation, modification, deletion with confirmation",
+          "Complete validation: forms with required fields, error messages, success notifications",
+          "Professional design: primary green color #059669, yellow gradient #fbbf24, smooth animations"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "FESSEF - Student Community Platform",
+        "description": "Modern and complete web platform for the Federation of Senegalese Student Associations in France. Integrates React/Vite responsive frontend, Node.js/Express backend with JWT authentication, complete event management, associations, institutions, job offers, and advanced admin dashboard for all content management.",
+        "technologies": ["React 19.2.0", "Vite 7.2.2", "Node.js", "Express.js 5.1.0", "MySQL 5.7+", "JWT", "bcryptjs", "Leaflet (Cartography)", "React Router v7", "EmailJS", "Multer (File Upload)", "CSS3", "JavaScript ES6+", "REST API"],
+        "repository": "https://github.com/yassmeissa/fessef",
+        "highlights": [
+          "Complete community platform with multi-entity management: events, associations, institutions, job offers, former presidents and boards",
+          "Multi-level authentication: JWT system for members and administrators with distinct roles",
+          "Event management: creation, modification, deletion of events with images, dates, complete descriptions",
+          "Association management: complete catalog of affiliated associations with detailed information",
+          "Institution management: partnerships and associated institutions with contact details",
+          "Employment portal: job offers targeted for Senegalese students in France",
+          "Gallery of former presidents: history with photos and biographies",
+          "Administrator dashboard: complete interface for managing all contents",
+          "File upload: image management with Multer for events and contents",
+          "Interactive cartography: Leaflet integration for event location display",
+          "Notification system: EmailJS for automatic communication",
+          "Contact forms: EmailJS integration for direct communication",
+          "Responsive interface: consistent design on all devices (mobile, tablet, desktop)",
+          "Smart navigation: admin sidebar, sticky header, dynamic footer",
+          "MySQL database: complex relationships between entities"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "AgroTech - Smart Agricultural Mobile App",
+        "description": "Complete native multiplatform mobile application (iOS/Android) for intelligent agriculture. Integrates React Native 19.0.0 with IA diagnosis screens via Google Cloud Dialogflow, real-time climate management, biometric authentication (Face ID/Biometrics), AI-powered chatbot, image management with Expo Image Picker, advanced navigation with React Navigation, and Express.js backend for REST API.",
+        "technologies": ["React Native 0.78.1", "React 19.0.0", "TypeScript", "Express.js 5.1.0", "Google Cloud Dialogflow", "React Navigation v7", "Expo Image Picker", "React Native Reanimated", "Axios", "AsyncStorage", "Notifee (Notifications)", "React Native Biometrics (Face ID)", "React Native Vector Icons", "SVG Charts", "Styled Components", "Node.js", "REST API"],
+        "repository": "https://github.com/yassmeissa/AgroTech",
+        "highlights": [
+          "Native mobile application iOS and Android with React Native",
+          "Plant disease diagnosis via Google Cloud Dialogflow AI",
+          "Interactive chat with AI chatbot for agricultural advice",
+          "Secure authentication: Face ID, fingerprints and Keychain",
+          "Real-time climate management with charts and forecasts",
+          "Integrated geolocation with @react-native-community/geolocation",
+          "Image selection and processing (Expo Image Picker)",
+          "Multi-screen navigation with React Navigation Stack",
+          "Smooth animations with React Native Reanimated and Animatable",
+          "Secure local storage with AsyncStorage and React Native Keychain",
+          "Push notifications with Notifee",
+          "Responsive UI adapted to mobile design",
+          "Intuitive onboarding screens",
+          "Home dashboard with agricultural statistics",
+          "Modular and scalable architecture",
+          "Testing with Jest"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Meeting Management Chatbot",
+        "description": "Python/Flask chatbot with advanced NLP to manage meetings. The assistant understands natural language requests, extracts details (dates, times, participants) and automatically creates events in Google Calendar with conflict detection.",
+        "technologies": ["Python 3.9", "Flask 2.3.3", "Google Calendar API", "OAuth2 Authentication", "NLP", "Regex Pattern Matching", "REST API", "SQLite/Session Management", "Pytest 7.4.3", "HTML5/CSS3/JavaScript", "Tailwind CSS", "React 18.2.0", "Vite 5.0.0", "Docker & Docker Compose", "Python dateutil & pytz"],
+        "repository": "https://github.com/yassmeissa/ChatbotReunions",
+        "highlights": [
+          "Intelligent chatbot completely functional with NLP",
+          "6 intents detected with 95%+ accuracy",
+          "Automatic entity extraction",
+          "Complete Google Calendar integration",
+          "Real-time conflict detection",
+          "Modern and reactive web interface",
+          "REST API with 14+ endpoints",
+          "19/19 passing tests",
+          "Modular and scalable architecture",
+          "Complete documentation",
+          "Production-ready code",
+          "Optimal performance (200ms latency)"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Strategic Card Combat Game",
+        "description": "Strategic card combat game application developed in Java with Swing graphical interface. The player faces the computer by invoking monsters, using special abilities and managing tactical strategy. The game integrates a complete card system with 15 unique monsters, a turn-by-turn combat system, opponent AI and complete board game management.",
+        "technologies": ["Java 8+", "Java Swing", "Object-Oriented Programming (OOP)", "Design Patterns (Factory, Strategy)", "File I/O", "Image Processing", "Logging System", "GUI Development", "Game Development", "Event-Driven Programming"],
+        "repository": "https://github.com/yassmeissa/CombatGame",
+        "highlights": [
+          "Complete desktop application with Swing graphical interface",
+          "Card and deck system with 15 unique monsters",
+          "Turn-by-turn combat engine with tactical mechanics",
+          "Opponent AI with intelligent game logic",
+          "Special ability system per champion",
+          "Three types of monsters: Normal, Warriors, Healers",
+          "Card image and interface management",
+          "Game board with monster invocation",
+          "Life points and attack system",
+          "Modular and extensible architecture",
+          "Factory Pattern for entity creation",
+          "Complete logging system",
+          "Responsive and intuitive UI",
+          "User event management",
+          "Well-structured and documented code",
+          "JUnit integrated tests"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Image Segmentation with Clustering and 3D Visualization",
+        "description": "Complete desktop application for image segmentation with clustering and interactive 3D visualization developed in Python with Tkinter interface. The project implements 4 clustering algorithms (K-Means, GMM, MeanShift, Spectral) with PCA preprocessing, interactive 3D visualization and advanced color palette management.",
+        "technologies": ["Python 3.13", "Tkinter", "NumPy", "Scikit-learn", "Matplotlib", "Pillow (PIL)", "SciPy", "PCA Preprocessing", "3D Visualization", "Threading"],
+        "repository": "https://github.com/yassmeissa/ImageSegmentation",
+        "highlights": [
+          "Complete GUI application with modern Tkinter interface",
+          "4 advanced clustering algorithms integrated",
+          "PCA preprocessing for dimensional reduction",
+          "Interactive 3D visualization of clusters",
+          "Intelligent color palette management",
+          "Background processing without UI blocking",
+          "High resolution PNG export of results",
+          "Multiple image format support",
+          "Comparative model analysis",
+          "Complete logging system",
+          "Modular and extensible architecture",
+          "Optimized image management with Pillow",
+          "Intuitive and responsive interface",
+          "Customizable configuration per model",
+          "Matplotlib palette support",
+          "Robust validation and error handling"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Fashion-MNIST Classification Suite",
+        "description": "Complete Fashion-MNIST image classification project developed in Python with OOP architecture. Implementation of 7 machine learning models (SVM, MLP, XGBoost, Random Forest, ExtraTrees, Logistic Regression, Naive Bayes) with multi-modal feature engineering (Raw pixels, HOG, LBP, Edge detection, statistics) and advanced optimization via Grid Search and Cross-Validation.",
+        "technologies": ["Python 3.10+", "Scikit-learn 1.0+", "XGBoost", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-image", "SciPy", "Grid Search", "Cross-Validation", "Feature Engineering", "Statistical Analysis"],
+        "repository": "https://github.com/yassmeissa/ComputerVisionFashionMNist",
+        "highlights": [
+          "7 advanced classification models integrated",
+          "Multi-modal feature engineering (5 types of features)",
+          "Hyperparameter optimization with Grid Search",
+          "Cross-validation and robust statistical analysis",
+          "Detailed confusion matrices and error analysis",
+          "Learning curves and variance analysis",
+          "Modular and reusable pipeline",
+          "Advanced comparative visualizations",
+          "Complete and structured logging system",
+          "Well-organized OOP architecture",
+          "CLI support with multiple modes",
+          "High-quality results export",
+          "Automated and reproducible benchmarking",
+          "Comparative model analysis",
+          "Optimal memory management",
+          "Performance > 92% on Fashion-MNIST"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "HexMaster - Intelligent Agent for Hex Game",
+        "description": "Sophisticated intelligent agent developed in Python for the Hex board game as part of the INF8175 project. The agent uses the Minimax algorithm with Alpha-Beta pruning, sophisticated heuristics, and intelligent time management to make optimal decisions. Capable of defeating experienced human players and reference agents with a 100% win rate.",
+        "technologies": ["Python 3.13", "Seahorse Framework", "Minimax with Alpha-Beta Pruning", "Dijkstra Algorithm", "Game Theory & AI", "Advanced Heuristics", "Adaptive Time Management", "Iterative Deepening", "BFS/DFS for Pathfinding", "Event-Driven Programming", "Web GUI (HTML/CSS/JavaScript)"],
+        "repository": "https://github.com/yassmeissa/projet_hex",
+        "highlights": [
+          "Ultra-high-performance AI agent defeating experienced human players",
+          "Minimax algorithm with Alpha-Beta pruning up to 15 plys",
+          "100% win rate against reference agents (random & greedy)",
+          "Smart time management with adaptive allocation per phase",
+          "Dijkstra pathfinding with differentiated costs by piece type",
+          "Multi-factor heuristics (shortest path, connectivity, edge control, strategic positions)",
+          "Proactive threat detection and blocking",
+          "Differential strategy to maximize positive advantage",
+          "Multi-ply analysis for critical moves",
+          "Crash detection system with automatic retry",
+          "Modular architecture with stratified decision pipeline",
+          "Optimal performance: responses in 0.1s average",
+          "Automated tests with graceful error handling",
+          "Interactive GUI interface for human vs agent play",
+          "Well-structured and documented code"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "dataAI": "Data & AI",
+    "database": "Databases",
+    "cloudDevops": "Cloud & DevOps",
+    "tools": "Tools & Others",
+    "items": {
+      "frontend": [
+        "React",
+        "React Native",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5 / CSS3",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Responsive Design",
+        "DOM Manipulation",
+        "Vite"
+      ],
+      "backend": [
+        "Node.js / Express",
+        "Python (Flask / FastAPI)",
+        "PHP",
+        "Symfony",
+        "Java",
+        "REST APIs",
+        "Authentication (JWT)",
+        "OAuth2",
+        "CRUD Operations",
+        "MVC Architecture"
+      ],
+      "database": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "PDO",
+        "SQLite"
+      ],
+      "cloudDevops": [
+        "Docker / Kubernetes",
+        "AWS (EC2, RDS, S3)",
+        "Microsoft Azure",
+        "CI/CD",
+        "Git / GitHub",
+        "Agile",
+        "Nginx"
+      ],
+      "dataAI": [
+        "Machine Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "Computer Vision",
+        "Data Analysis",
+        "Web Scraping",
+        "NLP",
+        "NumPy",
+        "Pandas"
+      ],
+      "tools": [
+        "Qlik Sense",
+        "Power BI",
+        "VS Code",
+        "Postman",
+        "Jest",
+        "Pytest",
+        "JUnit"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out to me for any inquiries or opportunities.",
+    "email": "Email",
+    "phone": "Phone",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "copyright": "© {{year}} Mame Yacine Ndiaye Portfolio. All rights reserved."
+  }
+}

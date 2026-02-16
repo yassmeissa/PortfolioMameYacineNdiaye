@@ -1,0 +1,629 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+  "title": "Salut, je suis Mame Yacine NDIAYE",
+  "subtitle": "Développeuse Full-Stack & Spécialiste en Intelligence Artificielle",
+  "points": [
+    "Développement Full-Stack : Conception et mise en œuvre d’applications web et mobiles robustes.",
+    "Intelligence Artificielle : Développement de solutions basées sur le Machine Learning et la vision par ordinateur.",
+    "Architecture & Performance : Applications évolutives, sécurisées et optimisées."
+  ],
+  "cta": "Voir Mes Projets",
+  "hireMeBtn": "Me Contacter"
+},
+ "about": {
+  "title": "À Propos",
+  "description": "Développeuse Full-Stack spécialisée dans la conception d’applications web et mobiles performantes, je combine expertise technique et vision stratégique pour concevoir des solutions digitales robustes et évolutives. Mon parcours académique en **Master à Ynov Campus** me permet d’approfondir mes compétences en **Intelligence Artificielle, Machine Learning et Data Science**, avec une approche orientée résolution de problématiques concrètes.\n\nJe maîtrise les environnements **JavaScript (React, Node.js, Express)**, les architectures backend sécurisées, ainsi que le développement en **Python, Java et PHP**. J’accorde une importance particulière à la qualité du code, aux bonnes pratiques d’architecture logicielle et à l’optimisation des performances.\n\nPassionnée par l’innovation, je m’intéresse particulièrement aux applications intégrant **l’IA et la vision par ordinateur**, avec l’objectif de créer des solutions intelligentes à forte valeur ajoutée. Rigoureuse, autonome et collaborative, je m’investis pleinement dans les projets afin d’apporter une contribution technique durable et structurée.",
+  "stats": [
+    {
+      "number": "10+",
+      "label": "Projets"
+    },
+    {
+      "number": "3+",
+      "label": "Expérience"
+    }
+  ]
+
+},
+  "experience": {
+    "title": "Expérience",
+    "noExperience": "Ajoutez votre expérience ici",
+    "items": [
+      {
+        "id": 1,
+        "company": "Ynov Campus, Lyon",
+        "position": "Stage Data Scientist - Web Scraping & CRM",
+        "period": "Jan 2026 - Jul 2026",
+        "description": "Développement de scripts de web scraping automatisé pour les campagnes marketing et création d'un CRM pour gérer les leads et les workflows de communication",
+        "highlights": [
+          "Scripts de web scraping automatisé pour les campagnes marketing",
+          "Développement d'un CRM pour la gestion des leads et des workflows",
+          "Conception de pipelines de données pour le traitement et le stockage efficaces",
+          "Analyse exploratoire de données et visualisation"
+        ]
+      },
+      {
+        "id": 2,
+        "company": "Orange Sénégal",
+        "position": "Stage Développeur Python",
+        "period": "Avr 2024 - Août 2024",
+        "description": "Développement d'applications Python backend pour les outils internes et les projets d'automatisation",
+        "highlights": [
+          "Développement d'applications Python pour les outils internes et l'automatisation",
+          "Conception et implémentation d'API REST pour intégrer les systèmes internes",
+          "Automatisation de la collecte, validation et reporting des données",
+          "Collaboration avec les développeurs seniors en méthodologie Agile"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "id": 1,
+        "degree": "Master en Intelligence Artificielle",
+        "school": "Ynov Campus, Lyon",
+        "period": "Sep 2025 - Présent",
+        "highlights": [
+          "Techniques avancées de Machine Learning et Deep Learning",
+          "Visualisation algorithmique et interprétabilité des modèles",
+          "Vision par Ordinateur et Traitement du Langage Naturel",
+          "Déploiement et optimisation des modèles IA",
+          "Applications pratiques et projets d'IA"
+        ]
+      },
+      {
+        "id": 2,
+        "degree": "Bachelor en Data & Application Design",
+        "school": "Estiam, Lyon",
+        "period": "Oct 2024 - Août 2025",
+        "highlights": [
+          "Développement d'applications full-stack avec React, PHP Symfony, SQL/NoSQL",
+          "Création de plateformes e-commerce, chatbots et dashboards",
+          "Développement de jeux Java et Python",
+          "API REST, déploiement cloud Azure, Docker et AWS",
+          "Visualisation de données Qlik Sense et Power BI",
+          "Conception UX/UI et design web responsive"
+        ]
+      },
+      {
+        "id": 3,
+        "degree": "Bachelor en Sciences Numériques - Tronc Commun",
+        "school": "ECE, Lyon",
+        "period": "Sep 2022 - Août 2024",
+        "highlights": [
+          "Programmation, Développement logiciel, réseaux et gestion de projets",
+          "Création de sites web, de jeux et d'API RESTful",
+          "Intégration front-end/back-end",
+          "Projets Agile, débogage, tests et documentation"
+        ]
+      },
+      {
+        "id": 4,
+        "degree": "Baccalauréat Scientifique",
+        "school": "Mikado, Dakar, Sénégal",
+        "period": "2020 - 2021",
+        "highlights": [
+          "Fondamentaux en Mathématiques et Physique",
+          "Fondamentaux en Informatique",
+          "Excellentes performances académiques"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "viewProject": "Voir le Projet",
+    "github": "GitHub",
+    "demo": "Démo en Direct",
+    "viewDetails": "Voir les Détails",
+    "viewAll": "Voir Tous les Projets",
+    "backToProjects": "Retour aux Projets",
+    "overview": "Vue d'ensemble",
+    "keyFeatures": "Caractéristiques Clés",
+    "technologies": "Technologies",
+    "links": "Liens",
+    "backToGallery": "Retour à la Galerie",
+    "notFound": "Projet non trouvé",
+    "viewMore": "Voir {{count}} de plus",
+    "viewLess": "Voir moins",
+    "items": [
+      {
+  "id": 1,
+  "title": "AlgoTrade Lab – Plateforme d'Analyse et de Simulation de Trading",
+  "description": "Application web complète de simulation et d'analyse de stratégies de trading. La plateforme permet aux utilisateurs de tester des algorithmes sur des données historiques, visualiser les performances en temps réel et analyser les indicateurs financiers via des graphiques dynamiques.",
+  "technologies": ["Node.js", "Express.js", "MongoDB", "Angular", "TypeScript", "JWT", "Chart.js", "REST API", "Docker"],
+  "highlights": [
+    "Plateforme complète de simulation de trading algorithmique avec gestion des utilisateurs",
+    "Architecture backend modulaire (controllers, services, routes, models) avec Express.js",
+    "Authentification sécurisée avec JWT et gestion des rôles utilisateurs",
+    "Backtesting de stratégies : test d'algorithmes sur données historiques avec calcul automatique des performances",
+    "Calcul d'indicateurs financiers : RSI, Moyenne Mobile (SMA/EMA), MACD",
+    "Visualisation avancée des données : graphiques dynamiques interactifs avec Chart.js",
+    "Dashboard utilisateur personnalisé : suivi des performances, statistiques, historique des simulations",
+    "Gestion des portefeuilles virtuels : capital initial, profits/pertes, drawdown, rendement",
+    "API REST sécurisée et documentée pour communication Frontend/Backend",
+    "Base de données MongoDB optimisée pour stocker utilisateurs, stratégies, historiques et résultats",
+    "Interface moderne et responsive avec Angular et TypeScript",
+    "Conteneurisation avec Docker pour déploiement simplifié",
+    "Code structuré et scalable, prêt pour évolution vers microservices ou intégration IA"
+  ],
+  "repository": "https://github.com/yassmeissa/AlgoTradeLab"
+},
+      {
+  "id": 2,
+  "title": "Plateforme Admins–Étudiants",
+  "description": "Plateforme web moderne multi-rôles (Admin / Étudiant) pour la gestion pédagogique complète : cours, leçons, QCM, forum d'échange. Interface responsive avec thème dark/light persistant, recherche en temps réel et correction automatique des quiz avec notation.",
+  "technologies": ["Symfony 7.0", "PHP 8.4", "Bootstrap 5.3", "MySQL", "Twig", "Font Awesome 6.4", "JavaScript", "REST API"],
+  "highlights": [
+    "Plateforme pédagogique complète : gestion des cours, leçons, QCM, questions et forum d'échange",
+    "Système multi-rôles avancé : administration, gestion d'utilisateurs et contrôle d'accès basé sur les rôles (RBAC)",
+    "Architecture MVC robuste avec Symfony 7.0 : base de données relationnelle (users, courses, lessons, QCM, questions, student_notes)",
+    "QCM intelligent : questions multiples, correction automatique, notation en temps réel, historique des tentatives",
+    "Interface moderne et responsive : Bootstrap 5.3.0, Font Awesome 6.4.0, design adapté mobile/desktop",
+    "Thème persistant dark/light : gestion automatique avec cookies (1 an), cohérence visuelle partout",
+    "Recherche en temps réel : filtrage dynamique des cours, utilisateurs, QCM et leçons sans rechargement",
+    "Forum intégré : création de posts, échange entre étudiants, gestion des conversations",
+    "Dashboard étudiant : tableau de bord personnalisé, suivi des cours, résultats QCM, statistiques d'apprentissage",
+    "Panel admin complet : CRUD pour tous les éléments (cours, utilisateurs, QCM, questions)",
+    "Authentification sécurisée : système de login/registration, gestion des sessions, validation des données",
+    "UX optimisée : transitions fluides, animations, hover effects, messages de confirmation, validations"
+  ],
+  
+  "repository": "https://github.com/yassmeissa/project_admins_students"
+},
+     {
+  "id": 3,
+  "title": "Système de Gestion des Interventions",
+  "subtitle": "Plateforme multi-rôles pour la gestion complète des interventions techniques",
+  "description": "Système web moderne et complet pour la gestion des interventions techniques avec support multi-rôles (Admin / Standardiste / Technicien / Client). Interface professionnelle responsive avec authentification sécurisée, dashboards personnalisés et CRUD complet pour interventions et utilisateurs.",
+  "technologies": ["PHP 8.4", "Custom MVC", "MySQL 9.6", "PDO", "HTML5", "CSS3", "JavaScript", "Bootstrap", "REST API"],
+  "highlights": [
+    "Système multi-rôles avancé : 4 rôles distincts (Admin, Standardiste, Technicien, Client) avec contrôle d'accès basé sur les rôles (RBAC)",
+    "Architecture MVC personnalisée : routeur simple mais robuste, séparation claire des responsabilités (Contrôleurs, Modèles, Vues)",
+    "Base de données relationnelle : 6 tables (Utilisateur, Client, Intervenant, Standardiste, Admin, Intervention) avec relations complexes",
+    "Dashboards personnalisés : chaque rôle a un dashboard adapté à ses besoins et permissions",
+    "CRUD complet : gestion complète des interventions et utilisateurs avec validation des données",
+    "Interface moderne et responsive : design professionnel avec gradients, animations fluides et hover effects",
+    "Thème cohérent : utilisation de gradients violet-bleu, badges de couleur pour les statuts, tableaux stylisés",
+    "Authentification sécurisée : système de login/registration avec sessions PHP, hachage des mots de passe",
+    "Gestion des statuts : interventions avec statuts (En attente, En cours, Terminé) et degrés d'urgence",
+    "Système de notifications : messages flash pour les actions (succès, erreur)",
+    "Navigation intelligente : redirection automatique vers le dashboard approprié selon le rôle",
+    "Formulaires dynamiques : création et modification d'interventions avec champs optionnels et obligatoires"
+  ],
+
+  "repository": "https://github.com/yassmeissa/InterventionsManagement"
+},
+
+{
+  "id": 4,
+  "title": "Africa Shop - Plateforme E-commerce Africaine",
+  "subtitle": "Plateforme e-commerce complète avec système admin intégré pour une épicerie africaine en ligne",
+  "description": "Plateforme e-commerce moderne et performante dédiée aux produits africains avec système d'administration complet. Intègre un frontend React/Vite responsive, un backend Node.js/Express avec authentification JWT, gestion des paiements (Stripe/PayPal), et un dashboard admin avancé pour la gestion des produits, commandes et catégories.",
+  "technologies": [
+    "React 19.2.0",
+    "Vite 7.3.0",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Stripe API",
+    "PayPal API",
+    "Font Awesome 6.4",
+    "CSS3",
+    "JavaScript ES6+",
+    "REST API"
+  ],
+  "highlights": [
+    "Plateforme e-commerce complète : catalogue de 26 produits, 6 catégories, panier persistant et checkout sécurisé",
+    "Authentification multi-niveaux : système JWT pour clients et administrateurs avec rôles distincts (admin/client)",
+    "Gestion des paiements intégrée : support Stripe et PayPal avec pages de succès/annulation et confirmation",
+    "Dashboard admin avancé : gestion CRUD complète des produits, commandes, catégories avec modales interactives",
+    "Système de KPI dynamique : 5 cartes statistiques (commandes, revenus, en attente, payées, produits)",
+    "Filtrage intelligent : ordre par statut/date, produits par catégories récupérées de la BDD",
+    "Gestion des images : encodage base64 pour upload/modification directe depuis les formulaires",
+    "Interface responsive : grille adaptative, hero banner avec gradient, design cohérent client/admin",
+    "Footer dynamique : catégories récupérées automatiquement depuis la base de données",
+    "Navigation intelligente : barre sticky, panier avec lien, lien admin visible uniquement pour admins connectés",
+    "Modales interactives : dialogs pour création, modification, suppression de produits avec confirmation",
+    "Validation complète : formulaires avec champs obligatoires, messages d'erreur, notifications de succès",
+    "Design professionnel : couleur primaire vert #059669, gradient jaune #fbbf24, animations fluides"
+  ],
+
+  "repository": "https://github.com/yassmeissa/MonAfricaShop"
+
+},
+
+{
+  "id": 5,
+  "title": "FESSEF - Plateforme Communautaire Étudiante",
+  "subtitle": "Site web officiel avec système de gestion d'événements et d'associations pour la Fédération des Étudiants Sénégalais de France",
+  "description": "Plateforme web moderne et complète pour la Fédération des Associations des Étudiants Sénégalais de France (FESSEF). Intègre un frontend React/Vite responsive, un backend Node.js/Express avec authentification JWT, gestion complète des événements, associations, institutions, offres d'emploi, et un tableau de bord administrateur avancé pour la gestion de tous les contenus.",
+  "technologies": [
+    "React 19.2.0",
+    "Vite 7.2.2",
+    "Node.js",
+    "Express.js 5.1.0",
+    "MySQL 5.7+",
+    "JWT",
+    "bcryptjs",
+    "Leaflet (Cartographie)",
+    "React Router v7",
+    "EmailJS",
+    "Multer (Upload fichiers)",
+    "CSS3",
+    "JavaScript ES6+",
+    "REST API"
+  ],
+  "highlights": [
+    "Plateforme communautaire complète avec gestion multi-entités : événements, associations, institutions, offres d'emploi, anciens présidents et bureaux",
+    "Authentification multi-niveaux : système JWT pour membres et administrateurs avec rôles distincts",
+    "Gestion des événements : création, modification, suppression d'événements avec images, dates, descriptions complètes",
+    "Gestion des associations : catalogue complet des associations affiliées avec informations détaillées",
+    "Gestion des institutions : partenariats et institutions associées avec coordonnées",
+    "Portail emploi : offres d'emploi ciblées pour étudiants sénégalais en France",
+    "Galerie des anciens présidents : historique avec photos et biographies",
+    "Tableau de bord administrateur : interface complète pour gérer tous les contenus",
+    "Upload de fichiers : gestion des images avec Multer pour événements et contenus",
+    "Cartographie interactive : intégration Leaflet pour localisation des événements",
+    "Système de notification : EmailJS pour communication automatique",
+    "Formulaires de contact : intégration EmailJS pour communication directe",
+    "Interface responsive : design cohérent sur tous les appareils (mobile, tablet, desktop)",
+    "Navigation intuitive : sidebar admin, header sticky, footer dynamique",
+    "Base de données MySQL : relations complexes entre entités"
+  ],
+  "repository": "https://github.com/yassmeissa/Fessef"
+},
+
+{
+  "id": 6,
+  "title": "AgroTech - Application Mobile Agricole Intelligente",
+  "subtitle": "Application React Native complète avec IA pour diagnostic des maladies de plantes et gestion climatique",
+  "description": "Application mobile native multiplateforme (iOS/Android) pour l'agriculture intelligente. Intègre React Native 19.0.0 avec écrans de diagnostic IA via Google Cloud Dialogflow, gestion climatique en temps réel, authentification biométrique (Face ID/Biométrie), chat avec chatbot IA, gestion d'images avec Expo Image Picker, navigation avancée avec React Navigation, et backend Express.js pour l'API REST.",
+  "technologies": [
+    "React Native 0.78.1",
+    "React 19.0.0",
+    "TypeScript",
+    "Express.js 5.1.0",
+    "Google Cloud Dialogflow",
+    "React Navigation v7",
+    "Expo Image Picker",
+    "React Native Reanimated",
+    "Axios",
+    "AsyncStorage",
+    "Notifee (Notifications)",
+    "React Native Biometrics (Face ID)",
+    "React Native Vector Icons",
+    "SVG Charts",
+    "Styled Components",
+    "Node.js",
+    "REST API"
+  ],
+  "highlights": [
+    "Application mobile native iOS et Android avec React Native",
+    "Diagnostic IA des maladies de plantes via Google Cloud Dialogflow",
+    "Chat interactif avec chatbot IA pour conseils agricoles",
+    "Authentification sécurisée : Face ID, empreintes digitales et Keychain",
+    "Gestion climatique temps réel avec graphiques et prévisions",
+    "Géolocalisation intégrée avec @react-native-community/geolocation",
+    "Sélection et traitement d'images (Expo Image Picker)",
+    "Navigation multi-écrans avec React Navigation Stack",
+    "Animations fluides avec React Native Reanimated et Animatable",
+    "Stockage local sécurisé avec AsyncStorage et React Native Keychain",
+    "Notifications push avec Notifee",
+    "UI responsive et adaptée au design mobile",
+    "Écrans d'onboarding intuitifs",
+    "Dashboard d'accueil avec statistiques",
+    "Architecture modulaire et scalable",
+    "Tests avec Jest"
+  ],
+  
+  "repository": "https://github.com/yassmeissa/AgroTech"
+},
+
+{
+  "id": 7,
+  "title": "Chatbot de Gestion des Réunions",
+  "subtitle": "Assistant IA intelligent pour planifier, gérer et optimiser vos réunions avec intégration Google Calendar",
+  "description": "Chatbot Python/Flask avec NLP avancé pour gérer les réunions et séminaires. L'assistant comprend les demandes en langage naturel, extrait les détails (dates, heures, participants) et crée automatiquement des événements dans Google Calendar avec détection de conflits.",
+  "technologies": [
+    "Python 3.9",
+    "Flask 2.3.3",
+    "Google Calendar API",
+    "OAuth2 Authentication",
+    "NLP (Natural Language Processing)",
+    "Regex Pattern Matching",
+    "REST API",
+    "SQLite/Session Management",
+    "Pytest 7.4.3",
+    "HTML5/CSS3/JavaScript",
+    "Tailwind CSS",
+    "React 18.2.0",
+    "Vite 5.0.0",
+    "Docker & Docker Compose",
+    "Python dateutil & pytz"
+  ],
+  "highlights": [
+    "Chatbot NLP avec détection d'intentions à 95%+ de précision",
+    "6 intents principaux: créer, annuler, modifier, lister, conflits, aide",
+    "Extraction d'entités avancée: dates, heures, participants (emails)",
+    "Intégration Google Calendar complète avec OAuth2",
+    "Détection automatique des conflits de réunions",
+    "Création automatique d'événements Google Calendar",
+    "Interface web moderne et réactive (HTML/CSS/JS)",
+    "Backend REST API avec 14+ endpoints",
+    "Tests complets: 19/19 tests passants",
+    "Logging robuste avec rotation de fichiers",
+    "Gestion des fuseaux horaires (pytz)",
+    "Parsing intelligent de dates naturelles (demain, lundi, etc.)",
+    "Support multilingue français/anglais",
+    "Architecture modulaire et extensible",
+    "CORS configuré pour développement",
+    "Session management sécurisé",
+    "Documentation complète et guides d'utilisation",
+    "Code production-ready et performant"
+  ],
+  
+ 
+  "repository": "https://github.com/yassmeissa/ChatbotReunions"
+
+},
+
+{
+  "id": 8,
+  "title": "Jeu de Cartes de Combat Stratégique",
+  "subtitle": "Jeu de cartes de combat stratégique en Java avec interface graphique Swing",
+  "description": "Application de jeu de cartes de combat développée en Java avec interface graphique Swing. Le joueur affronte l'ordinateur en invoquant des monstres, en utilisant des capacités spéciales et en gérant sa stratégie tactique. Le jeu intègre un système de cartes complet avec 15 monstres uniques, un système de combat au tour par tour, une IA d'adversaire et une gestion complète du plateau de jeu.",
+  "technologies": [
+    "Java 8+",
+    "Java Swing",
+    "Object-Oriented Programming (OOP)",
+    "Design Patterns (Factory, Strategy)",
+    "File I/O",
+    "Image Processing",
+    "Logging System (Java Logging)",
+    "GUI Development",
+    "Game Development",
+    "Event-Driven Programming"
+  ],
+  "highlights": [
+    "Application desktop complète avec interface graphique Swing",
+    "Système de cartes et de deck avec 15 monstres uniques",
+    "Moteur de combat au tour par tour avec mécaniques tactiques",
+    "IA d'adversaire avec logique de jeu intelligent",
+    "Système de capacités spéciales par champion",
+    "Trois types de monstres : Normaux, Guerriers, Guérisseurs",
+    "Gestion d'images des cartes et de l'interface",
+    "Plateau de jeu avec invocation de monstres",
+    "Système de points de vie et d'attaque",
+    "Architecture modulaire et extensible",
+    "Factory Pattern pour création d'entités",
+    "Système de logging complet",
+    "UI responsive et intuitive",
+    "Gestion d'événements utilisateur",
+    "Code bien structuré et documenté",
+    "Tests intégrés avec JUnit"
+  ],
+  
+  
+  "repository": "https://github.com/yassmeissa/CombatGame"
+
+},
+
+{
+  "id": 9,
+  "title": "Segmentation d'Images avec Clustering et Visualisation 3D",
+  "subtitle": "Application de segmentation d'images avec clustering et visualisation 3D",
+  "description": "Application desktop complète de segmentation d'images développée en Python avec interface Tkinter. Le projet implémente 4 algorithmes de clustering (K-Means, GMM, MeanShift, Spectral) avec prétraitement PCA, visualisation 3D interactive et gestion avancée des palettes de couleurs.",
+  "technologies": [
+    "Python 3.13",
+    "Tkinter",
+    "NumPy",
+    "Scikit-learn",
+    "Matplotlib",
+    "Pillow (PIL)",
+    "SciPy",
+    "PCA Preprocessing",
+    "3D Visualization",
+    "Threading"
+  ],
+  "highlights": [
+    "Application GUI complète avec interface Tkinter moderne",
+    "4 algorithmes de clustering avancés intégrés",
+    "Prétraitement PCA pour réduction dimensionnelle",
+    "Visualisation 3D interactive des clusters",
+    "Gestion intelligent des palettes de couleurs",
+    "Traitement en arrière-plan sans blocage UI",
+    "Export PNG haute résolution des résultats",
+    "Support multiple des formats d'image",
+    "Analyse comparative des modèles",
+    "Système de logging complet",
+    "Architecture modulaire et extensible",
+    "Gestion d'images optimisée avec Pillow",
+    "Interface intuitive et responsive",
+    "Configuration personnalisée par modèle",
+    "Support des palettes Matplotlib",
+    "Validation et gestion d'erreurs robuste"
+  ],
+  
+  
+  "repository": "https://github.com/yassmeissa/ImageSegmentation"
+},
+
+{
+  "id": 10,
+  "title": "Fashion-MNIST Classification Suite",
+  "subtitle": "Système de classification de vêtements avec feature engineering avancé et optimisation d'hyperparamètres",
+  "description": "Projet complet de classification d'images Fashion-MNIST développé en Python avec architecture POO. Implémentation de 7 modèles d'apprentissage machine (SVM, MLP, XGBoost, Random Forest, ExtraTrees, SVM, Logistic Regression) avec feature engineering multi-modal (Raw pixels, HOG, LBP, Edge detection, statistiques) et optimisation avancée via Grid Search et Cross-Validation.",
+  "technologies": [
+    "Python 3.10+",
+    "Scikit-learn 1.0+",
+    "XGBoost",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Seaborn",
+    "Scikit-image",
+    "SciPy",
+    "Grid Search",
+    "Cross-Validation",
+    "Feature Engineering",
+    "Statistical Analysis"
+  ],
+  "highlights": [
+    "7 modèles de classification avancés intégrés",
+    "Feature engineering multi-modal (5 types de features)",
+    "Optimisation d'hyperparamètres avec Grid Search",
+    "Validation croisée et analyse statistique robuste",
+    "Matrices de confusion détaillées et analyse d'erreurs",
+    "Courbes d'apprentissage et analyse de variance",
+    "Pipeline modulaire et réutilisable",
+    "Visualisations comparatives avancées",
+    "Système de logging complet et structuré",
+    "Architecture POO bien organisée",
+    "Support CLI avec modes multiples",
+    "Export de résultats haute qualité",
+    "Benchmarking automatisé et reproductible",
+    "Analyse comparative des modèles",
+    "Gestion optimale de la mémoire",
+    "Performance > 92% sur Fashion-MNIST"
+  ],
+  
+  "repository": "https://github.com/yassmeissa/ComputerVisionFashionMNist"
+
+},
+
+{
+  "id": 11,
+  "title": "HexMaster - Agent Intelligent pour le Jeu Hex",
+  "subtitle": "Agent IA sophistiqué pour le jeu Hex utilisant Minimax et heuristiques avancées",
+  "description": "Agent intelligent développé en Python pour jouer au jeu de plateau Hex dans le cadre du projet INF8175. L'agent utilise l'algorithme Minimax avec élagage Alpha-Beta, des heuristiques sophistiquées, et une gestion intelligente du temps pour prendre des décisions optimales. Capable de battre les joueurs humains expérimentés et les agents de référence avec un taux de victoire de 100%.",
+  "technologies": [
+    "Python 3.13",
+    "Seahorse Framework (Framework de jeu)",
+    "Minimax avec Alpha-Beta Pruning",
+    "Algorithme Dijkstra",
+    "Game Theory & AI",
+    "Heuristiques avancées",
+    "Gestion du temps adaptatif",
+    "Iterative Deepening",
+    "BFS/DFS pour pathfinding",
+    "Event-Driven Programming",
+    "GUI Web (HTML/CSS/JavaScript)"
+  ],
+  "highlights": [
+    "Agent IA ultra-performant battant joueurs humains expérimentés",
+    "Algorithme Minimax avec Alpha-Beta pruning jusqu'à 15 plys",
+    "100% de taux de victoire contre agents de référence (random & greedy)",
+    "Gestion intelligente du temps avec allocation adaptative par phase",
+    "Pathfinding Dijkstra avec coûts différenciés par type de pièce",
+    "Heuristiques multi-facteurs (chemin shortest, connectivité, contrôle des bords, positions stratégiques)",
+    "Détection et blocage proactif des menaces adverses",
+    "Stratégie différentielle pour maximiser l'avantage positif",
+    "Analyse multi-ply pour les coups critiques",
+    "Système de crash detection avec retry automatique",
+    "Architecture modulaire avec pipeline de décision stratifiée",
+    "Performance optimale : réponses en 0.1s en moyenne",
+    "Tests automatisés avec gestion gracieuse des erreurs",
+    "Interface GUI interactive pour jeu humain vs agent",
+    "Code bien structuré et documenté"
+  ],
+  
+
+  "repository": "https://github.com/yassmeissa/projet_hex"
+}
+
+    ]
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "dataAI": "Data & AI",
+    "database": "Bases de Données",
+    "cloudDevops": "Cloud & DevOps",
+    "tools": "Outils & Autres",
+    "items": {
+      "frontend": [
+        "React",
+        "React Native",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5 / CSS3",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Responsive Design",
+        "DOM Manipulation",
+        "Vite"
+      ],
+      "backend": [
+        "Node.js / Express",
+        "Python (Flask / FastAPI)",
+        "PHP",
+        "Symfony",
+        "Java",
+        "REST APIs",
+        "Authentication (JWT)",
+        "OAuth2",
+        "CRUD Operations",
+        "MVC Architecture"
+      ],
+      "database": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "PDO",
+        "SQLite"
+      ],
+      "cloudDevops": [
+        "Docker / Kubernetes",
+        "AWS (EC2, RDS, S3)",
+        "Microsoft Azure",
+        "CI/CD",
+        "Git / GitHub",
+        "Agile",
+        "Nginx"
+      ],
+      "dataAI": [
+        "Machine Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "Computer Vision",
+        "Data Analysis",
+        "Web Scraping",
+        "NLP",
+        "NumPy",
+        "Pandas"
+      ],
+      "tools": [
+        "Qlik Sense",
+        "Power BI",
+        "VS Code",
+        "Postman",
+        "Jest",
+        "Pytest",
+        "JUnit"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "description": "N'hésitez pas à me contacter pour toute question ou opportunité.",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "sendMessage": "Envoyer un Message"
+  },
+  "footer": {
+    "copyright": "© {{year}} Portfolio Mame Yacine Ndiaye . Tous droits réservés."
+  }
+}
