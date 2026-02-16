@@ -6,5 +6,21 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "domains": [
+    {
+      "domain": "mameyacinendiaye.vercel.app",
+      "default": true
+    },
+    {
+      "domain": "my-portfolio-six-iota-34.vercel.app"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://mameyacinendiaye.vercel.app/:path*",
+      "permanent": true
+    }
   ]
 }
