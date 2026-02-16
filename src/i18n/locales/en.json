@@ -136,6 +136,28 @@
     "items": [
       {
         "id": 1,
+        "title": "AlgoTrade Lab – Trading Analysis and Simulation Platform",
+        "description": "Complete web application for simulating and analyzing trading strategies. The platform allows users to test algorithms on historical data, visualize performance in real-time and analyze financial indicators through dynamic charts.",
+        "technologies": ["Node.js", "Express.js", "MongoDB", "Angular", "TypeScript", "JWT", "Chart.js", "REST API", "Docker"],
+        "highlights": [
+          "Complete algorithmic trading simulation platform with user management",
+          "Modular backend architecture (controllers, services, routes, models) with Express.js",
+          "Secure authentication with JWT and user role management",
+          "Strategy backtesting: test algorithms on historical data with automatic performance calculation",
+          "Financial indicator calculation: RSI, Moving Averages (SMA/EMA), MACD",
+          "Advanced data visualization: interactive dynamic charts with Chart.js",
+          "Personalized user dashboard: performance tracking, statistics, simulation history",
+          "Virtual portfolio management: initial capital, profits/losses, drawdown, returns",
+          "Secure and documented REST API for Frontend/Backend communication",
+          "MongoDB database optimized for storing users, strategies, histories and results",
+          "Modern and responsive interface with Angular and TypeScript",
+          "Containerization with Docker for simplified deployment",
+          "Structured and scalable code, ready for evolution towards microservices or AI integration"
+        ],
+        "repository": "https://github.com/yassmeissa/AlgoTradeLab"
+      },
+      {
+        "id": 2,
         "title": "Admins–Students Platform",
         "description": "Modern multi-role web platform (Admin / Student) for complete educational management: courses, lessons, quizzes, discussion forum. Responsive interface with persistent dark/light theme, real-time search and automatic quiz correction with grading.",
         "technologies": ["Symfony 7.0", "PHP 8.4", "Bootstrap 5.3", "MySQL", "Twig", "Font Awesome 6.4", "JavaScript", "REST API"],
@@ -156,7 +178,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "Intervention Management System",
         "description": "Modern web system for complete technical intervention management with multi-role support (Admin / Dispatcher / Technician / Client). Professional responsive interface with secure authentication, personalized dashboards and complete CRUD for interventions and users.",
         "technologies": ["PHP 8.4", "Custom MVC", "MySQL 9.6", "PDO", "HTML5", "CSS3", "JavaScript", "Bootstrap", "REST API"],
@@ -177,7 +199,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "Africa Shop - African E-commerce Platform",
         "description": "Modern and high-performance e-commerce platform dedicated to African products with complete admin system. Integrates React/Vite responsive frontend, Node.js/Express backend with JWT authentication, payment management (Stripe/PayPal), and advanced admin dashboard for product, order and category management.",
         "technologies": ["React 19.2.0", "Vite 7.3.0", "Node.js", "Express.js", "MongoDB", "JWT", "Stripe API", "PayPal API", "Font Awesome 6.4", "CSS3", "JavaScript ES6+", "REST API"],
@@ -199,7 +221,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "FESSEF - Student Community Platform",
         "description": "Modern and complete web platform for the Federation of Senegalese Student Associations in France. Integrates React/Vite responsive frontend, Node.js/Express backend with JWT authentication, complete event management, associations, institutions, job offers, and advanced admin dashboard for all content management.",
         "technologies": ["React 19.2.0", "Vite 7.2.2", "Node.js", "Express.js 5.1.0", "MySQL 5.7+", "JWT", "bcryptjs", "Leaflet (Cartography)", "React Router v7", "EmailJS", "Multer (File Upload)", "CSS3", "JavaScript ES6+", "REST API"],
@@ -223,7 +245,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "AgroTech - Smart Agricultural Mobile App",
         "description": "Complete native multiplatform mobile application (iOS/Android) for intelligent agriculture. Integrates React Native 19.0.0 with IA diagnosis screens via Google Cloud Dialogflow, real-time climate management, biometric authentication (Face ID/Biometrics), AI-powered chatbot, image management with Expo Image Picker, advanced navigation with React Navigation, and Express.js backend for REST API.",
         "technologies": ["React Native 0.78.1", "React 19.0.0", "TypeScript", "Express.js 5.1.0", "Google Cloud Dialogflow", "React Navigation v7", "Expo Image Picker", "React Native Reanimated", "Axios", "AsyncStorage", "Notifee (Notifications)", "React Native Biometrics (Face ID)", "React Native Vector Icons", "SVG Charts", "Styled Components", "Node.js", "REST API"],
@@ -248,7 +270,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "Meeting Management Chatbot",
         "description": "Python/Flask chatbot with advanced NLP to manage meetings. The assistant understands natural language requests, extracts details (dates, times, participants) and automatically creates events in Google Calendar with conflict detection.",
         "technologies": ["Python 3.9", "Flask 2.3.3", "Google Calendar API", "OAuth2 Authentication", "NLP", "Regex Pattern Matching", "REST API", "SQLite/Session Management", "Pytest 7.4.3", "HTML5/CSS3/JavaScript", "Tailwind CSS", "React 18.2.0", "Vite 5.0.0", "Docker & Docker Compose", "Python dateutil & pytz"],
@@ -269,7 +291,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Strategic Card Combat Game",
         "description": "Strategic card combat game application developed in Java with Swing graphical interface. The player faces the computer by invoking monsters, using special abilities and managing tactical strategy. The game integrates a complete card system with 15 unique monsters, a turn-by-turn combat system, opponent AI and complete board game management.",
         "technologies": ["Java 8+", "Java Swing", "Object-Oriented Programming (OOP)", "Design Patterns (Factory, Strategy)", "File I/O", "Image Processing", "Logging System", "GUI Development", "Game Development", "Event-Driven Programming"],
@@ -294,7 +316,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "Image Segmentation with Clustering and 3D Visualization",
         "description": "Complete desktop application for image segmentation with clustering and interactive 3D visualization developed in Python with Tkinter interface. The project implements 4 clustering algorithms (K-Means, GMM, MeanShift, Spectral) with PCA preprocessing, interactive 3D visualization and advanced color palette management.",
         "technologies": ["Python 3.13", "Tkinter", "NumPy", "Scikit-learn", "Matplotlib", "Pillow (PIL)", "SciPy", "PCA Preprocessing", "3D Visualization", "Threading"],
@@ -319,7 +341,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 10,
         "title": "Fashion-MNIST Classification Suite",
         "description": "Complete Fashion-MNIST image classification project developed in Python with OOP architecture. Implementation of 7 machine learning models (SVM, MLP, XGBoost, Random Forest, ExtraTrees, Logistic Regression, Naive Bayes) with multi-modal feature engineering (Raw pixels, HOG, LBP, Edge detection, statistics) and advanced optimization via Grid Search and Cross-Validation.",
         "technologies": ["Python 3.10+", "Scikit-learn 1.0+", "XGBoost", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-image", "SciPy", "Grid Search", "Cross-Validation", "Feature Engineering", "Statistical Analysis"],
@@ -344,7 +366,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 11,
         "title": "HexMaster - Intelligent Agent for Hex Game",
         "description": "Sophisticated intelligent agent developed in Python for the Hex board game as part of the INF8175 project. The agent uses the Minimax algorithm with Alpha-Beta pruning, sophisticated heuristics, and intelligent time management to make optimal decisions. Capable of defeating experienced human players and reference agents with a 100% win rate.",
         "technologies": ["Python 3.13", "Seahorse Framework", "Minimax with Alpha-Beta Pruning", "Dijkstra Algorithm", "Game Theory & AI", "Advanced Heuristics", "Adaptive Time Management", "Iterative Deepening", "BFS/DFS for Pathfinding", "Event-Driven Programming", "Web GUI (HTML/CSS/JavaScript)"],

@@ -138,6 +138,28 @@
     "items": [
       {
   "id": 1,
+  "title": "AlgoTrade Lab – Plateforme d'Analyse et de Simulation de Trading",
+  "description": "Application web complète de simulation et d'analyse de stratégies de trading. La plateforme permet aux utilisateurs de tester des algorithmes sur des données historiques, visualiser les performances en temps réel et analyser les indicateurs financiers via des graphiques dynamiques.",
+  "technologies": ["Node.js", "Express.js", "MongoDB", "Angular", "TypeScript", "JWT", "Chart.js", "REST API", "Docker"],
+  "highlights": [
+    "Plateforme complète de simulation de trading algorithmique avec gestion des utilisateurs",
+    "Architecture backend modulaire (controllers, services, routes, models) avec Express.js",
+    "Authentification sécurisée avec JWT et gestion des rôles utilisateurs",
+    "Backtesting de stratégies : test d'algorithmes sur données historiques avec calcul automatique des performances",
+    "Calcul d'indicateurs financiers : RSI, Moyenne Mobile (SMA/EMA), MACD",
+    "Visualisation avancée des données : graphiques dynamiques interactifs avec Chart.js",
+    "Dashboard utilisateur personnalisé : suivi des performances, statistiques, historique des simulations",
+    "Gestion des portefeuilles virtuels : capital initial, profits/pertes, drawdown, rendement",
+    "API REST sécurisée et documentée pour communication Frontend/Backend",
+    "Base de données MongoDB optimisée pour stocker utilisateurs, stratégies, historiques et résultats",
+    "Interface moderne et responsive avec Angular et TypeScript",
+    "Conteneurisation avec Docker pour déploiement simplifié",
+    "Code structuré et scalable, prêt pour évolution vers microservices ou intégration IA"
+  ],
+  "repository": "https://github.com/yassmeissa/AlgoTradeLab"
+},
+      {
+  "id": 2,
   "title": "Plateforme Admins–Étudiants",
   "description": "Plateforme web moderne multi-rôles (Admin / Étudiant) pour la gestion pédagogique complète : cours, leçons, QCM, forum d'échange. Interface responsive avec thème dark/light persistant, recherche en temps réel et correction automatique des quiz avec notation.",
   "technologies": ["Symfony 7.0", "PHP 8.4", "Bootstrap 5.3", "MySQL", "Twig", "Font Awesome 6.4", "JavaScript", "REST API"],
@@ -159,7 +181,7 @@
   "repository": "https://github.com/yassmeissa/project_admins_students"
 },
      {
-  "id": 2,
+  "id": 3,
   "title": "Système de Gestion des Interventions",
   "subtitle": "Plateforme multi-rôles pour la gestion complète des interventions techniques",
   "description": "Système web moderne et complet pour la gestion des interventions techniques avec support multi-rôles (Admin / Standardiste / Technicien / Client). Interface professionnelle responsive avec authentification sécurisée, dashboards personnalisés et CRUD complet pour interventions et utilisateurs.",
@@ -183,7 +205,7 @@
 },
 
 {
-  "id": 3,
+  "id": 4,
   "title": "Africa Shop - Plateforme E-commerce Africaine",
   "subtitle": "Plateforme e-commerce complète avec système admin intégré pour une épicerie africaine en ligne",
   "description": "Plateforme e-commerce moderne et performante dédiée aux produits africains avec système d'administration complet. Intègre un frontend React/Vite responsive, un backend Node.js/Express avec authentification JWT, gestion des paiements (Stripe/PayPal), et un dashboard admin avancé pour la gestion des produits, commandes et catégories.",
@@ -222,7 +244,7 @@
 },
 
 {
-  "id": 4,
+  "id": 5,
   "title": "FESSEF - Plateforme Communautaire Étudiante",
   "subtitle": "Site web officiel avec système de gestion d'événements et d'associations pour la Fédération des Étudiants Sénégalais de France",
   "description": "Plateforme web moderne et complète pour la Fédération des Associations des Étudiants Sénégalais de France (FESSEF). Intègre un frontend React/Vite responsive, un backend Node.js/Express avec authentification JWT, gestion complète des événements, associations, institutions, offres d'emploi, et un tableau de bord administrateur avancé pour la gestion de tous les contenus.",
@@ -263,7 +285,7 @@
 },
 
 {
-  "id": 5,
+  "id": 6,
   "title": "AgroTech - Application Mobile Agricole Intelligente",
   "subtitle": "Application React Native complète avec IA pour diagnostic des maladies de plantes et gestion climatique",
   "description": "Application mobile native multiplateforme (iOS/Android) pour l'agriculture intelligente. Intègre React Native 19.0.0 avec écrans de diagnostic IA via Google Cloud Dialogflow, gestion climatique en temps réel, authentification biométrique (Face ID/Biométrie), chat avec chatbot IA, gestion d'images avec Expo Image Picker, navigation avancée avec React Navigation, et backend Express.js pour l'API REST.",
@@ -309,7 +331,7 @@
 },
 
 {
-  "id": 6,
+  "id": 7,
   "title": "Chatbot de Gestion des Réunions",
   "subtitle": "Assistant IA intelligent pour planifier, gérer et optimiser vos réunions avec intégration Google Calendar",
   "description": "Chatbot Python/Flask avec NLP avancé pour gérer les réunions et séminaires. L'assistant comprend les demandes en langage naturel, extrait les détails (dates, heures, participants) et crée automatiquement des événements dans Google Calendar avec détection de conflits.",
@@ -357,7 +379,7 @@
 },
 
 {
-  "id": 7,
+  "id": 8,
   "title": "Jeu de Cartes de Combat Stratégique",
   "subtitle": "Jeu de cartes de combat stratégique en Java avec interface graphique Swing",
   "description": "Application de jeu de cartes de combat développée en Java avec interface graphique Swing. Le joueur affronte l'ordinateur en invoquant des monstres, en utilisant des capacités spéciales et en gérant sa stratégie tactique. Le jeu intègre un système de cartes complet avec 15 monstres uniques, un système de combat au tour par tour, une IA d'adversaire et une gestion complète du plateau de jeu.",
@@ -398,7 +420,7 @@
 },
 
 {
-  "id": 8,
+  "id": 9,
   "title": "Segmentation d'Images avec Clustering et Visualisation 3D",
   "subtitle": "Application de segmentation d'images avec clustering et visualisation 3D",
   "description": "Application desktop complète de segmentation d'images développée en Python avec interface Tkinter. Le projet implémente 4 algorithmes de clustering (K-Means, GMM, MeanShift, Spectral) avec prétraitement PCA, visualisation 3D interactive et gestion avancée des palettes de couleurs.",
@@ -438,7 +460,7 @@
 },
 
 {
-  "id": 9,
+  "id": 10,
   "title": "Fashion-MNIST Classification Suite",
   "subtitle": "Système de classification de vêtements avec feature engineering avancé et optimisation d'hyperparamètres",
   "description": "Projet complet de classification d'images Fashion-MNIST développé en Python avec architecture POO. Implémentation de 7 modèles d'apprentissage machine (SVM, MLP, XGBoost, Random Forest, ExtraTrees, SVM, Logistic Regression) avec feature engineering multi-modal (Raw pixels, HOG, LBP, Edge detection, statistiques) et optimisation avancée via Grid Search et Cross-Validation.",
@@ -481,7 +503,7 @@
 },
 
 {
-  "id": 10,
+  "id": 11,
   "title": "HexMaster - Agent Intelligent pour le Jeu Hex",
   "subtitle": "Agent IA sophistiqué pour le jeu Hex utilisant Minimax et heuristiques avancées",
   "description": "Agent intelligent développé en Python pour jouer au jeu de plateau Hex dans le cadre du projet INF8175. L'agent utilise l'algorithme Minimax avec élagage Alpha-Beta, des heuristiques sophistiquées, et une gestion intelligente du temps pour prendre des décisions optimales. Capable de battre les joueurs humains expérimentés et les agents de référence avec un taux de victoire de 100%.",
