@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { FiGithub, FiArrowRight } from 'react-icons/fi';
 import styles from './Projects.module.css';
 
@@ -14,6 +15,7 @@ interface Project {
 
 export const Projects = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const projects: Project[] = t('projects.items', { returnObjects: true }) as Project[];
 
@@ -52,10 +54,10 @@ export const Projects = () => {
                   )}
                 </div>
                 <div className={styles.links}>
-                  <a href={`/project/${project.id}`} className={styles.detailLink}>
+                  <button onClick={() => navigate(`/project/${project.id}`)} className={styles.detailLink}>
                     {t('projects.viewDetails') || 'View Details'}
                     <FiArrowRight size={18} />
-                  </a>
+                  </button>
                   <a href={project.repository} target="_blank" rel="noopener noreferrer" className={styles.link}>
                     <FiGithub size={18} />
                     {t('projects.github')}
