@@ -159,7 +159,7 @@
 },
       {
   "id": 2,
-  "title": "Système de Paiement Sécurisé – Plateforme Fintech Fullstack",
+  "title": "Système de Paiement Sécurisé – SpringBOOT & Angular",
   "description": "Application fullstack permettant de simuler un système de paiement sécurisé. Elle permet aux utilisateurs de créer des paiements, de gérer des marchands et de suivre l'état des transactions en temps réel à travers une interface moderne.",
   "technologies": ["Java", "Spring Boot", "Spring Security", "JWT", "Angular", "TypeScript", "MySQL", "REST API", "Hibernate", "Docker"],
   "highlights": [
